@@ -7,8 +7,7 @@ public class bfc {
 
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
-            System.out.println("Usage:java -cp .:asm-8.0.jar bfc programname.bf
-");
+            System.out.println("Usage:java -cp .:asm-8.0.jar bfc programname.bf");
             return;
         }
 
